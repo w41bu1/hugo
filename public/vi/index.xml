@@ -1,0 +1,10 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>w41bu1</title>
+        <link>http://localhost:1313/vi/</link>
+        <description>w41bu1</description>
+        <generator>Hugo -- gohugo.io</generator><language>vi</language><managingEditor>buivanyk4@gmail.com (w41bu1)</managingEditor>
+            <webMaster>buivanyk4@gmail.com (w41bu1)</webMaster><copyright>Tác phẩm này được cấp phép theo Giấy phép Creative Commons Ghi công - Phi thương mại 4.0 Quốc tế.</copyright>
+            <atom:link href="http://localhost:1313/vi/index.xml" rel="self" type="application/rss+xml" />
+        </channel>
+</rss>

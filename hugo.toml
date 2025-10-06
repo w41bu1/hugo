@@ -1,0 +1,480 @@
+baseURL = "https://w41bu1.github.io"
+theme = "LoveIt"
+title = "w41bu1"
+languageCode = "en"
+languageName = "English"
+
+# ========================================================================
+# Menu Configuration
+# ========================================================================
+[menu]
+  [[menu.main]]
+    weight = 1
+    identifier = "posts"
+    name = "Posts"
+    url = "/posts/"
+
+  [[menu.main]]
+    weight = 2
+    identifier = "tags"
+    name = "Tags"
+    url = "/tags/"
+
+  [[menu.main]]
+    weight = 3
+    identifier = "categories"
+    name = "Categories"
+    url = "/categories/"
+
+# ========================================================================
+# Markup Configuration
+# ========================================================================
+[markup]
+  [markup.highlight]
+    anchorLineNos = false
+    codeFences = true
+    guessSyntax = false
+    lineNos = false
+    lineNumbersInTable = true
+    noClasses = true
+
+  [markup.goldmark]
+    [markup.goldmark.extensions]
+      definitionList = true
+      footnote = true
+      linkify = true
+      strikethrough = true
+      table = true
+      taskList = true
+      typographer = true
+    [markup.goldmark.renderer]
+      unsafe = true
+
+  [markup.tableOfContents]
+    startLevel = 2
+    endLevel = 6
+
+# ========================================================================
+# Site Parameters
+# ========================================================================
+[params]
+  defaultTheme = "auto"
+  gitRepo = "https://github.com/dillonzq/LoveIt"
+  fingerprint = ""
+  dateFormat = "2006-01-02"
+  title = "w41bu1"
+  description = "w41bu1"
+  images = ["/logo.png"]
+
+  [params.author]
+    name = "w41bu1"
+    email = "buivanyk4@gmail.com"
+    link = "https://w41bu1.github.io"
+
+  # ----------------------------------------------------------------------
+  # Header Configuration
+  # ----------------------------------------------------------------------
+  [params.header]
+    desktopMode = "fixed"
+    mobileMode = "auto"
+
+    [params.header.title]
+      logo = ""
+      name = "w41bu1"
+      pre = "<i class='fa-solid fa-bug fa-fw' aria-hidden='true'></i>"
+      post = ""
+      typeit = false
+
+  # ----------------------------------------------------------------------
+  # Footer Configuration
+  # ----------------------------------------------------------------------
+  [params.footer]
+    enable = true
+    custom = ""
+    hugo = false
+    copyright = true
+    author = true
+    since = 2025
+    icp = ""
+    license = '<a rel="license external nofollow noopener noreffer" href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">CC BY-NC 4.0</a>'
+
+  # ----------------------------------------------------------------------
+  # Section Page Configuration
+  # ----------------------------------------------------------------------
+  [params.section]
+    paginate = 20
+    dateFormat = "01-02"
+    rss = 10
+
+  # ----------------------------------------------------------------------
+  # List Page Configuration
+  # ----------------------------------------------------------------------
+  [params.list]
+    paginate = 20
+    dateFormat = "01-02"
+    rss = 10
+
+  # ----------------------------------------------------------------------
+  # App Icon Configuration
+  # ----------------------------------------------------------------------
+  [params.app]
+    title = "LoveIt"
+    noFavicon = false
+    svgFavicon = ""
+    themeColor = "#ffffff"
+    iconColor = "#5bbad5"
+    tileColor = "#da532c"
+
+  # ----------------------------------------------------------------------
+  # Search Configuration
+  # ----------------------------------------------------------------------
+  [params.search]
+    enable = true
+    type = "algolia"
+    contentLength = 4000
+    placeholder = ""
+    maxResultLength = 10
+    snippetLength = 30
+    highlightTag = "em"
+    absoluteURL = false
+
+    [params.search.algolia]
+      index = ""
+      appID = ""
+      searchKey = ""
+
+  # ----------------------------------------------------------------------
+  # Home Page Configuration
+  # ----------------------------------------------------------------------
+  [params.home]
+    rss = 10
+
+    [params.home.profile]
+      enable = true
+      gravatarEmail = ""
+      avatarURL = "/images/avatar.jpeg"
+      title = ""
+      subtitle = '<i class="fas fa-shield-alt"></i> Security Research <br> <i class="fas fa-bug"></i> Penetration Tester'
+      typeit = true
+      social = true
+      disclaimer = ""
+
+    [params.home.posts]
+      enable = true
+      paginate = 6
+
+  # ----------------------------------------------------------------------
+  # Social Links
+  # ----------------------------------------------------------------------
+  [params.social]
+    GitHub = "w41bu1"
+    Linkedin = "w41bu1"
+    X = ""
+    Instagram = ""
+    Facebook = ""
+    Telegram = ""
+    Medium = ""
+    Gitlab = ""
+    RSS = ""
+
+  # ----------------------------------------------------------------------
+  # Page Configuration
+  # ----------------------------------------------------------------------
+  [params.page]
+    hiddenFromHomePage = false
+    hiddenFromSearch = false
+    twemoji = false
+    lightgallery = false
+    ruby = true
+    fraction = true
+    fontawesome = true
+    linkToMarkdown = true
+    rssFullText = false
+
+    [params.page.toc]
+      enable = true
+      keepStatic = false
+      auto = true
+
+    [params.page.code]
+      copy = true
+      maxShownLines = 50
+
+      [params.page.code.render]
+        goat = true
+        mermaid = true
+
+    [params.page.math]
+      enable = false
+      inlineLeftDelimiter = ""
+      inlineRightDelimiter = ""
+      blockLeftDelimiter = ""
+      blockRightDelimiter = ""
+      copyTex = true
+      mhchem = true
+
+    [params.page.mapbox]
+      accessToken = "pk.eyJ1IjoiZGlsbG9uenEiLCJhIjoiY2s2czd2M2x3MDA0NjNmcGxmcjVrZmc2cyJ9.aSjv2BNuZUfARvxRYjSVZQ"
+      lightStyle = "mapbox://styles/mapbox/light-v10?optimize=true"
+      darkStyle = "mapbox://styles/mapbox/dark-v10?optimize=true"
+      navigation = true
+      geolocate = true
+      scale = true
+      fullscreen = true
+
+    [params.page.share]
+      enable = true
+      X = true
+      Threads = true
+      Facebook = true
+      HackerNews = true
+      Line = true
+      Weibo = true
+      Diaspora = true
+      Telegram = true
+
+    # Comments (Valine enabled)
+    [params.page.comment]
+      enable = true
+      [params.page.comment.valine]
+        enable = true
+        appId = "QGzwQXOqs5JOhN4RGPOkR2mR-MdYXbMMI"
+        appKey = "WBmoGyJtbqUswvfLh6L8iEBr"
+        visitor = true
+        recordIP = true
+        highlight = true
+        serverURLs = "https://valine.hugoloveit.com"
+
+    [params.page.seo]
+      images = []
+      [params.page.seo.publisher]
+        name = "w41bu1"
+        logoUrl = "/images/avatar.jpeg"
+
+  # ----------------------------------------------------------------------
+  # TypeIt Animation
+  # ----------------------------------------------------------------------
+  [params.typeit]
+    speed = 100
+    cursorSpeed = 1000
+    cursorChar = "|"
+    duration = -1
+
+  # ----------------------------------------------------------------------
+  # SEO & Verification
+  # ----------------------------------------------------------------------
+  [params.verification]
+    google = ""
+    bing = ""
+    yandex = ""
+    pinterest = ""
+    baidu = ""
+
+  [params.seo]
+    image = "/images/Apple-Devices-Preview.png"
+    thumbnailUrl = "/images/screenshot.png"
+
+  # ----------------------------------------------------------------------
+  # Analytics
+  # ----------------------------------------------------------------------
+  [params.analytics.google]
+    id = ""
+    respectDoNotTrack = false
+
+  [params.analytics.fathom]
+    id = ""
+    server = ""
+
+  [params.analytics.plausible]
+    dataDomain = ""
+
+  [params.analytics.yandexMetrica]
+    id = ""
+
+  [params.analytics.goatCounter]
+    code = ""
+
+  # ----------------------------------------------------------------------
+  # CDN & Compatibility
+  # ----------------------------------------------------------------------
+  [params.cdn]
+    data = "jsdelivr.yml"
+
+  [params.compatibility]
+    polyfill = false
+    objectFit = false
+
+# ========================================================================
+# Sitemap & Output Formats
+# ========================================================================
+[sitemap]
+  changefreq = "weekly"
+  filename = "sitemap.xml"
+  priority = 0.5
+
+[permalinks]
+  posts = ":filename"
+
+[mediaTypes."text/plain"]
+  suffixes = ["md"]
+
+[outputFormats.MarkDown]
+  mediaType = "text/plain"
+  isPlainText = true
+  isHTML = false
+
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
+  page = ["HTML", "MarkDown"]
+  section = ["HTML", "RSS"]
+  taxonomy = ["HTML", "RSS"]
+
+# ========================================================================
+# Multilingual Configuration
+# ========================================================================
+[languages]
+
+  # ---------------- ENGLISH ----------------
+  [languages.en]
+    weight = 1
+    languageCode = "en"
+    languageName = "English"
+    hasCJKLanguage = false
+    copyright = "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License."
+
+    [languages.en.menu]
+      [[languages.en.menu.main]]
+        weight = 1
+        identifier = "posts"
+        name = "Posts"
+        url = "/posts/"
+      [[languages.en.menu.main]]
+        weight = 2
+        identifier = "tags"
+        name = "Tags"
+        url = "/tags/"
+      [[languages.en.menu.main]]
+        weight = 3
+        identifier = "categories"
+        name = "Categories"
+        url = "/categories/"
+      [[languages.en.menu.main]]
+        weight = 4
+        identifier = "documentation"
+        name = "Docs"
+        url = "/categories/documentation/"
+      [[languages.en.menu.main]]
+        weight = 5
+        identifier = "about"
+        name = "About"
+        url = "/about/"
+      [[languages.en.menu.main]]
+        weight = 6
+        identifier = "github"
+        pre = "<i class='fab fa-github fa-fw' aria-hidden='true'></i>"
+        url = "https://github.com/dillonzq/LoveIt"
+        title = "GitHub"
+
+    [languages.en.params.search]
+      enable = true
+      type = "algolia"
+      contentLength = 4000
+      placeholder = "Search..."
+      maxResultLength = 10
+      snippetLength = 30
+      highlightTag = "em"
+      absoluteURL = false
+
+      [languages.en.params.search.algolia]
+        index = "index"
+        appID = "4D1IDY8JU6"
+        searchKey = "05332ac5ed76655a511f0da583a9afac"
+
+    [languages.en.params.home]
+      rss = 10
+      [languages.en.params.home.profile]
+        enable = true
+        avatarURL = "/images/avatar.jpeg"
+        subtitle = '<i class="fas fa-shield-alt"></i> Security Research <br> <i class="fas fa-bug"></i> Penetration Tester'
+        typeit = true
+        social = true
+
+    [languages.en.params.social]
+      GitHub = "w41bu1"
+      Telegram = "w41bu1"
+      RSS = true
+
+  # ---------------- VIETNAMESE ----------------
+  [languages.vi]
+    weight = 2
+    languageCode = "vi"
+    languageName = "Vietnamese"
+    hasCJKLanguage = false
+    copyright = "Tác phẩm này được cấp phép theo Giấy phép Creative Commons Ghi công - Phi thương mại 4.0 Quốc tế."
+
+    [languages.vi.menu]
+      [[languages.vi.menu.main]]
+        weight = 1
+        identifier = "posts"
+        name = "Posts"
+        url = "/posts/"
+      [[languages.vi.menu.main]]
+        weight = 2
+        identifier = "tags"
+        name = "Tags"
+        url = "/tags/"
+      [[languages.vi.menu.main]]
+        weight = 3
+        identifier = "categories"
+        name = "Categories"
+        url = "/categories/"
+      [[languages.vi.menu.main]]
+        weight = 4
+        identifier = "documentation"
+        name = "Docs"
+        url = "/categories/documentation/"
+      [[languages.vi.menu.main]]
+        weight = 5
+        identifier = "about"
+        name = "About"
+        url = "/about/"
+      [[languages.vi.menu.main]]
+        weight = 6
+        identifier = "github"
+        pre = "<i class='fab fa-github fa-fw' aria-hidden='true'></i>"
+        url = "https://github.com/dillonzq/LoveIt"
+        title = "GitHub"
+
+    [languages.vi.params.search]
+      enable = true
+      type = "algolia"
+      contentLength = 4000
+      placeholder = "Tìm kiếm..."
+      maxResultLength = 10
+      snippetLength = 50
+      highlightTag = "em"
+      absoluteURL = false
+
+      [languages.vi.params.search.algolia]
+        index = "index"
+        appID = "GZT24PWKNT"
+        searchKey = "634ab679e825b815de2663de38908f9d"
+
+    [languages.vi.params.home]
+      rss = 10
+      [languages.vi.params.home.profile]
+        enable = true
+        avatarURL = "/images/avatar.jpeg"
+        subtitle = '<i class="fas fa-shield-alt"></i> Security Research <br> <i class="fas fa-bug"></i> Penetration Tester'
+        typeit = true
+        social = true
+
+    [languages.vi.params.social]
+      GitHub = "xxxx"
+      Facebook = "xxxx"
+      Telegram = "xxxx"
+      Instagram = "xxxx"
+      Youtube = "xxxx"
+      Email = "xxxx@xxxx.com"
+      Phone = "555-555-555"
+      RSS = true

@@ -1,0 +1,17 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>All Posts - w41bu1</title>
+        <link>http://localhost:1313/posts/</link>
+        <description>All Posts | w41bu1</description>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>buivanyk4@gmail.com (w41bu1)</managingEditor>
+            <webMaster>buivanyk4@gmail.com (w41bu1)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Sun, 21 Sep 2025 22:27:00 &#43;0700</lastBuildDate><atom:link href="http://localhost:1313/posts/" rel="self" type="application/rss+xml" /><item>
+    <title>CVE-2025-39566 Analysis &amp; POC</title>
+    <link>http://localhost:1313/2025-09-21-cve-2025-39566/</link>
+    <pubDate>Sun, 21 Sep 2025 22:27:00 &#43;0700</pubDate>
+    <author>buivanyk4@gmail.com (w41bu1)</author>
+    <guid>http://localhost:1313/2025-09-21-cve-2025-39566/</guid>
+    <description><![CDATA[Introduction A vulnerability in the Hostel plugin prior to version 1.1.5.7. Because input is not sanitized properly, this may allow an attacker to interact directly with the database, including but not limited to data exfiltration.
+CVE ID: CVE-2025-39566 Product: WordPress Hostel Plugin Vulnerability Type: SQL Injection Affected Versions: &lt;= 1.1.5.6 CVSS severity: 7.6 (High) Required Privilege: Administrator Requirements Local WordPress and Debugging Hostel Plugin: v1.1.5.6 (vulnerable) and v1.1.5.7 (fixed) diff tool: meld or any tool capable of comparing two versions to show differences Analysis The root cause is that the application injects data from a GET request directly into an SQL query while the validation/whitelisting is insufficient.]]></description>
+</item>
+</channel>
+</rss>
