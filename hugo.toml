@@ -481,4 +481,4 @@ languageName = "English"
 
 [caches]
   [caches.images]
-    dir = ':cacheDir/images'
+    dir = ':cacheDir/images' 
