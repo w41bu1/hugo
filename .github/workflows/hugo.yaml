@@ -18,9 +18,9 @@ jobs:
   build:
     runs-on: ubuntu-latest
     env:
-      DART_SASS_VERSION: 1.93.2
+      DART_SASS_VERSION: 1.92.1
       GO_VERSION: 1.25.1
-      HUGO_VERSION: 0.151.0
+      HUGO_VERSION: 0.150.0
       NODE_VERSION: 22.18.0
       TZ: Europe/Oslo
     steps:
@@ -103,4 +103,4 @@ jobs:
     steps:
       - name: Deploy to GitHub Pages
         id: deployment
-        uses: actions/deploy-pages@v4
+        uses: actions/deploy-pages@v4 
