@@ -53,7 +53,7 @@
             <a href="/" title="w41bu1"><span class="header-title-pre"><i class='fa-solid fa-bug fa-fw' aria-hidden='true'></i></span>w41bu1</a>
         </div>
         <div class="menu">
-            <div class="menu-inner"><a class="menu-item" href="/posts/"> Posts </a><a class="menu-item" href="/tags/"> Tags </a><a class="menu-item" href="/categories/"> Categories </a><a class="menu-item" href="/categories/documentation/"> Docs </a><a class="menu-item" href="/about/"> About </a><a class="menu-item" href="https://github.com/dillonzq/LoveIt" title="GitHub" rel="noopener noreffer" target="_blank"><i class='fab fa-github fa-fw' aria-hidden='true'></i>  </a><span class="menu-item delimiter"></span><span class="menu-item search" id="search-desktop">
+            <div class="menu-inner"><a class="menu-item" href="/posts/"> Posts </a><a class="menu-item" href="/tags/"> Tags </a><a class="menu-item" href="/categories/"> Categories </a><a class="menu-item" href="/categories/documentation/"> Docs </a><a class="menu-item" href="/about/"> About </a><a class="menu-item" href="https://github.com/w41bu1" title="GitHub" rel="noopener noreffer" target="_blank"><i class='fab fa-github fa-fw' aria-hidden='true'></i>  </a><span class="menu-item delimiter"></span><span class="menu-item search" id="search-desktop">
                         <input type="text" placeholder="Search..." id="search-input-desktop">
                         <a href="javascript:void(0);" class="search-button search-toggle" id="search-toggle-desktop" title="Search">
                             <i class="fas fa-search fa-fw" aria-hidden="true"></i>
@@ -98,7 +98,7 @@
                     <a href="javascript:void(0);" class="search-cancel" id="search-cancel-mobile">
                         Cancel
                     </a>
-                </div><a class="menu-item" href="/posts/" title="">Posts</a><a class="menu-item" href="/tags/" title="">Tags</a><a class="menu-item" href="/categories/" title="">Categories</a><a class="menu-item" href="/categories/documentation/" title="">Docs</a><a class="menu-item" href="/about/" title="">About</a><a class="menu-item" href="https://github.com/dillonzq/LoveIt" title="GitHub" rel="noopener noreffer" target="_blank"><i class='fab fa-github fa-fw' aria-hidden='true'></i></a><a href="javascript:void(0);" class="menu-item theme-switch" title="Switch Theme">
+                </div><a class="menu-item" href="/posts/" title="">Posts</a><a class="menu-item" href="/tags/" title="">Tags</a><a class="menu-item" href="/categories/" title="">Categories</a><a class="menu-item" href="/categories/documentation/" title="">Docs</a><a class="menu-item" href="/about/" title="">About</a><a class="menu-item" href="https://github.com/w41bu1" title="GitHub" rel="noopener noreffer" target="_blank"><i class='fab fa-github fa-fw' aria-hidden='true'></i></a><a href="javascript:void(0);" class="menu-item theme-switch" title="Switch Theme">
                 <i class="fas fa-adjust fa-fw" aria-hidden="true"></i>
             </a><a href="javascript:void(0);" class="menu-item" title="Select Language">
                     <i class="fa fa-globe fa-fw" aria-hidden="true"></i>
@@ -119,13 +119,109 @@
         data-sizes="auto"
         alt="/images/avatar.jpeg"
         title="/images/avatar.jpeg" width="736" height="736" /></a></div><div class="home-subtitle"><div id="id-1" class="typeit"></div></div><div class="links"><a href="https://github.com/w41bu1" title="GitHub" target="_blank" rel="noopener noreffer me"><i class="fab fa-github fa-fw" aria-hidden="true"></i></a><a href="https://linkedin.com/in/w41bu1" title="LinkedIn" target="_blank" rel="noopener noreffer me"><i class="fab fa-linkedin fa-fw" aria-hidden="true"></i></a><a href="https://t.me/w41bu1" title="Telegram" target="_blank" rel="noopener noreffer me"><i class="fab fa-telegram-plane fa-fw" aria-hidden="true"></i></a><a href="/index.xml" title="RSS" target="_blank" rel="noopener noreffer me"><i class="fas fa-rss fa-fw" aria-hidden="true"></i></a></div></div>
-<article class="single summary" itemscope itemtype="http://schema.org/Article"><h1 class="single-title" itemprop="name headline">
-        <a href="/2025-09-21-cve-2025-39566/">CVE-2025-39566 Analysis & POC</a>
-    </h1><div class="post-meta"><span class="post-author"><a href="https://w41bu1.github.io" title="Author" target="_blank" rel="noopener noreffer author" class="author"><i class="fas fa-user-circle fa-fw" aria-hidden="true"></i>w41bu1</a></span>&nbsp;<span class="post-publish">published on <time datetime="2025-09-21">2025-09-21</time></span>&nbsp;<span class="post-category">included in <a href="/categories/vulnerabilities/"><i class="far fa-folder fa-fw" aria-hidden="true"></i>Vulnerabilities</a>&nbsp;<a href="/categories/cve-analyst/"><i class="far fa-folder fa-fw" aria-hidden="true"></i>CVE Analyst</a></span></div><div class="content">Introduction A vulnerability in the Hostel plugin prior to version 1.1.5.7. Because input is not sanitized properly, this may allow an attacker to interact directly with the database, including but not limited to data exfiltration.
-CVE ID: CVE-2025-39566 Product: WordPress Hostel Plugin Vulnerability Type: SQL Injection Affected Versions: &lt;= 1.1.5.6 CVSS severity: 7.6 (High) Required Privilege: Administrator Requirements Local WordPress and Debugging Hostel Plugin: v1.1.5.6 (vulnerable) and v1.1.5.7 (fixed) diff tool: meld or any tool capable of comparing two versions to show differences Analysis The root cause is that the application injects data from a GET request directly into an SQL query while the validation/whitelisting is insufficient.</div><div class="post-footer">
-        <a href="/2025-09-21-cve-2025-39566/">Read More</a><div class="post-tags">
+<article class="single summary" itemscope itemtype="http://schema.org/Article"><div class="featured-image-preview">
+            <a href="/2025-10-06-cve-2025-10146/"><img
+        class="lazyload"
+        src="/svg/loading.min.svg"
+        data-src="/2025-10-06-cve-2025-10146/app.png"
+        data-srcset="/2025-10-06-cve-2025-10146/app.png, /2025-10-06-cve-2025-10146/app.png 1.5x, /2025-10-06-cve-2025-10146/app.png 2x"
+        data-sizes="auto"
+        alt="/2025-10-06-cve-2025-10146/app.png"
+        title="Security Vulnerability in WordPress Download Manager Plugin." width="1880" height="609" /></a>
+        </div><h1 class="single-title" itemprop="name headline">
+        <a href="/2025-10-06-cve-2025-10146/">CVE-2025-10146 Analysis & POC</a>
+    </h1><div class="post-meta"><span class="post-author"><a href="https://w41bu1.github.io" title="Author" target="_blank" rel="noopener noreffer author" class="author"><i class="fas fa-user-circle fa-fw" aria-hidden="true"></i>w41bu1</a></span>&nbsp;<span class="post-publish">published on <time datetime="2025-10-06">2025-10-06</time></span>&nbsp;<span class="post-category">included in <a href="/categories/cve-analyst/"><i class="far fa-folder fa-fw" aria-hidden="true"></i>CVE Analyst</a></span></div><div class="content">A vulnerability exists in the Download Manager plugin prior to version 3.3.24. Data retrieved from GET requests is printed directly into HTML attributes, leading to reflected XSS when a user with privileges accesses a URL crafted by an attacker.
+CVE ID: CVE-2025-10146 Product: WordPress Download Manager Plugin Vulnerability Type: Cross Site Scripting Affected Versions: &lt;= 3.3.23 CVSS severity: Medium (7.1) Required Privilege: Unauthenticated Requirements Local WordPress and Debugging Download Manager: v3.</div><div class="post-footer">
+        <a href="/2025-10-06-cve-2025-10146/">Read More</a><div class="post-tags">
+                <i class="fas fa-tags fa-fw" aria-hidden="true"></i>&nbsp;<a href="/tags/analyst/">Analyst</a>,&nbsp;<a href="/tags/plugin/">Plugin</a>,&nbsp;<a href="/tags/xss/">Xss</a></div></div>
+</article><article class="single summary" itemscope itemtype="http://schema.org/Article"><div class="featured-image-preview">
+            <a href="/2025-10-05-cve-2025-58990/"><img
+        class="lazyload"
+        src="/svg/loading.min.svg"
+        data-src="/2025-10-05-cve-2025-58990/app.png"
+        data-srcset="/2025-10-05-cve-2025-58990/app.png, /2025-10-05-cve-2025-58990/app.png 1.5x, /2025-10-05-cve-2025-58990/app.png 2x"
+        data-sizes="auto"
+        alt="/2025-10-05-cve-2025-58990/app.png"
+        title="Security Vulnerability in WordPress ShopLentor Plugin." width="1544" height="500" /></a>
+        </div><h1 class="single-title" itemprop="name headline">
+        <a href="/2025-10-05-cve-2025-58990/">CVE-2025-58990 Analysis & POC</a>
+    </h1><div class="post-meta"><span class="post-author"><a href="https://w41bu1.github.io" title="Author" target="_blank" rel="noopener noreffer author" class="author"><i class="fas fa-user-circle fa-fw" aria-hidden="true"></i>w41bu1</a></span>&nbsp;<span class="post-publish">published on <time datetime="2025-10-05">2025-10-05</time></span>&nbsp;<span class="post-category">included in <a href="/categories/cve-analyst/"><i class="far fa-folder fa-fw" aria-hidden="true"></i>CVE Analyst</a></span></div><div class="content">A vulnerability in the ShopLentor plugin prior to version 3.2.0 allows an attacker with contributor privileges to inject malicious code into a block&rsquo;s CSS. This CSS is then loaded inline into the page and can lead to Stored XSS when previewed or rendered in a browser.
+CVE ID: CVE-2025-58990 Product: WordPress ShopLentor Plugin Vulnerability Type: Cross Site Scripting Affected Versions: &lt;= 3.2.0 CVSS severity: Low (6.5) Required Privilege: Contributor Requirements Local WordPress and Debugging ShopLentor: v3.</div><div class="post-footer">
+        <a href="/2025-10-05-cve-2025-58990/">Read More</a><div class="post-tags">
+                <i class="fas fa-tags fa-fw" aria-hidden="true"></i>&nbsp;<a href="/tags/analyst/">Analyst</a>,&nbsp;<a href="/tags/plugin/">Plugin</a>,&nbsp;<a href="/tags/xss/">Xss</a></div></div>
+</article><article class="single summary" itemscope itemtype="http://schema.org/Article"><div class="featured-image-preview">
+            <a href="/2025-10-04-cve-2025-27006/"><img
+        class="lazyload"
+        src="/svg/loading.min.svg"
+        data-src="/2025-10-04-cve-2025-27006/app.png"
+        data-srcset="/2025-10-04-cve-2025-27006/app.png, /2025-10-04-cve-2025-27006/app.png 1.5x, /2025-10-04-cve-2025-27006/app.png 2x"
+        data-sizes="auto"
+        alt="/2025-10-04-cve-2025-27006/app.png"
+        title="Security Vulnerability in WordPress Authorsy Plugin." width="1544" height="500" /></a>
+        </div><h1 class="single-title" itemprop="name headline">
+        <a href="/2025-10-04-cve-2025-27006/">CVE-2025-27006 Analysis & POC</a>
+    </h1><div class="post-meta"><span class="post-author"><a href="https://w41bu1.github.io" title="Author" target="_blank" rel="noopener noreffer author" class="author"><i class="fas fa-user-circle fa-fw" aria-hidden="true"></i>w41bu1</a></span>&nbsp;<span class="post-publish">published on <time datetime="2025-10-04">2025-10-04</time></span>&nbsp;<span class="post-category">included in <a href="/categories/cve-analyst/"><i class="far fa-folder fa-fw" aria-hidden="true"></i>CVE Analyst</a></span></div><div class="content">The vulnerability exists in the Authorsy plugin for WordPress prior to version 1.0.6. This could allow an attacker to inject malicious code (e.g., redirect scripts, ads, or other HTML payloads) into the website, which would execute when visitors open the page.
+CVE ID: CVE-2025-27006 Product: WordPress Authorsy Plugin Vulnerability Type: Cross Site Scripting Affected Versions: &lt;= 1.0.5 CVSS severity: Medium (6.5) OWASP Top 10: A1: Broken Access Control Required Privilege: Subscriber Although the description requires Subscriber privileges, it can actually be exploited Unauthenticated.</div><div class="post-footer">
+        <a href="/2025-10-04-cve-2025-27006/">Read More</a><div class="post-tags">
+                <i class="fas fa-tags fa-fw" aria-hidden="true"></i>&nbsp;<a href="/tags/analyst/">Analyst</a>,&nbsp;<a href="/tags/plugin/">Plugin</a>,&nbsp;<a href="/tags/xss/">Xss</a></div></div>
+</article><article class="single summary" itemscope itemtype="http://schema.org/Article"><div class="featured-image-preview">
+            <a href="/2025-10-03-cve-2025-53307/"><img
+        class="lazyload"
+        src="/svg/loading.min.svg"
+        data-src="/2025-10-03-cve-2025-53307/app.png"
+        data-srcset="/2025-10-03-cve-2025-53307/app.png, /2025-10-03-cve-2025-53307/app.png 1.5x, /2025-10-03-cve-2025-53307/app.png 2x"
+        data-sizes="auto"
+        alt="/2025-10-03-cve-2025-53307/app.png"
+        title="Security Vulnerability in WordPress Assistant Plugin." width="1544" height="500" /></a>
+        </div><h1 class="single-title" itemprop="name headline">
+        <a href="/2025-10-03-cve-2025-53307/">CVE-2025-53307 Analysis & POC</a>
+    </h1><div class="post-meta"><span class="post-author"><a href="https://w41bu1.github.io" title="Author" target="_blank" rel="noopener noreffer author" class="author"><i class="fas fa-user-circle fa-fw" aria-hidden="true"></i>w41bu1</a></span>&nbsp;<span class="post-publish">published on <time datetime="2025-10-03">2025-10-03</time></span>&nbsp;<span class="post-category">included in <a href="/categories/cve-analyst/"><i class="far fa-folder fa-fw" aria-hidden="true"></i>CVE Analyst</a></span></div><div class="content">The vulnerability exists in the Assistant plugin for WordPress prior to version 3.6.2. This could allow an attacker to inject malicious code (e.g., redirect scripts, ads, or other HTML payloads) into the website, which would execute when visitors open the page.
+CVE ID: CVE-2025-53307 Product: WordPress Assistant Plugin Vulnerability Type: Cross Site Scripting Affected Versions: &lt;= 1.5.2 CVSS severity: Medium (7.1) Required Privilege: Unauthenticated Requirements Local WordPress and Debugging Assistant: v1.</div><div class="post-footer">
+        <a href="/2025-10-03-cve-2025-53307/">Read More</a><div class="post-tags">
+                <i class="fas fa-tags fa-fw" aria-hidden="true"></i>&nbsp;<a href="/tags/analyst/">Analyst</a>,&nbsp;<a href="/tags/plugin/">Plugin</a>,&nbsp;<a href="/tags/xss/">Xss</a></div></div>
+</article><article class="single summary" itemscope itemtype="http://schema.org/Article"><div class="featured-image-preview">
+            <a href="/2025-10-02-cve-2025-6234/"><img
+        class="lazyload"
+        src="/svg/loading.min.svg"
+        data-src="/2025-10-02-cve-2025-6234/app.png"
+        data-srcset="/2025-10-02-cve-2025-6234/app.png, /2025-10-02-cve-2025-6234/app.png 1.5x, /2025-10-02-cve-2025-6234/app.png 2x"
+        data-sizes="auto"
+        alt="/2025-10-02-cve-2025-6234/app.png"
+        title="Security Vulnerability in WordPress Hostel Plugin." width="1544" height="500" /></a>
+        </div><h1 class="single-title" itemprop="name headline">
+        <a href="/2025-10-02-cve-2025-6234/">CVE-2025-6234 Analysis & POC</a>
+    </h1><div class="post-meta"><span class="post-author"><a href="https://w41bu1.github.io" title="Author" target="_blank" rel="noopener noreffer author" class="author"><i class="fas fa-user-circle fa-fw" aria-hidden="true"></i>w41bu1</a></span>&nbsp;<span class="post-publish">published on <time datetime="2025-10-02">2025-10-02</time></span>&nbsp;<span class="post-category">included in <a href="/categories/cve-analyst/"><i class="far fa-folder fa-fw" aria-hidden="true"></i>CVE Analyst</a></span></div><div class="content">The vulnerability exists in the Hostel plugin for WordPress prior to version 1.1.5.8. An attacker could exploit it to target high-privilege users like admins.
+CVE ID: CVE-2025-6234 Product: WordPress Hostel Plugin Vulnerability Type: Cross Site Scripting Affected Versions: &lt; 1.1.5.8 CVSS severity: Medium (7.1) Required Privilege: Unauthenticated Requirements Local WordPress and Debugging Hostel Plugin: v1.1.5.7 (vulnerable) and v1.1.5.8 (patched) Diff tool: meld or any tool that can compare two versions Analysis The root cause is the lack of sanitization and escaping for a parameter before rendering it on the page, leading to a Reflected Cross-Site Scripting (XSS) vulnerability.</div><div class="post-footer">
+        <a href="/2025-10-02-cve-2025-6234/">Read More</a><div class="post-tags">
+                <i class="fas fa-tags fa-fw" aria-hidden="true"></i>&nbsp;<a href="/tags/analyst/">Analyst</a>,&nbsp;<a href="/tags/plugin/">Plugin</a>,&nbsp;<a href="/tags/xss/">Xss</a></div></div>
+</article><article class="single summary" itemscope itemtype="http://schema.org/Article"><div class="featured-image-preview">
+            <a href="/2025-10-01-cve-2022-21661/"><img
+        class="lazyload"
+        src="/svg/loading.min.svg"
+        data-src="/2025-10-01-cve-2022-21661/app.png"
+        data-srcset="/2025-10-01-cve-2022-21661/app.png, /2025-10-01-cve-2022-21661/app.png 1.5x, /2025-10-01-cve-2022-21661/app.png 2x"
+        data-sizes="auto"
+        alt="/2025-10-01-cve-2022-21661/app.png"
+        title="Security Vulnerability in WordPress Core." width="2560" height="1440" /></a>
+        </div><h1 class="single-title" itemprop="name headline">
+        <a href="/2025-10-01-cve-2022-21661/">CVE-2022-21661 Analysis & POC</a>
+    </h1><div class="post-meta"><span class="post-author"><a href="https://w41bu1.github.io" title="Author" target="_blank" rel="noopener noreffer author" class="author"><i class="fas fa-user-circle fa-fw" aria-hidden="true"></i>w41bu1</a></span>&nbsp;<span class="post-publish">published on <time datetime="2025-10-01">2025-10-01</time></span>&nbsp;<span class="post-category">included in <a href="/categories/cve-analyst/"><i class="far fa-folder fa-fw" aria-hidden="true"></i>CVE Analyst</a></span></div><div class="content">Due to improper data sanitization in WP_Query, it is possible in certain cases to perform an SQL Injection through plugins or themes that use it in a particular way. This vulnerability was patched in WordPress version 5.8.3. Older affected versions were also fixed through security releases going back as far as 3.7.37.
+CVE ID: CVE-2022-21661 Product: WordPress Vulnerability Type: SQL Injection Affected Versions: 3.7.37 ≤ version &lt; 5.8.3 CVSS severity: High (8.</div><div class="post-footer">
+        <a href="/2025-10-01-cve-2022-21661/">Read More</a><div class="post-tags">
                 <i class="fas fa-tags fa-fw" aria-hidden="true"></i>&nbsp;<a href="/tags/analyst/">Analyst</a>,&nbsp;<a href="/tags/plugin/">Plugin</a>,&nbsp;<a href="/tags/sqli/">Sqli</a></div></div>
-</article></div></div>
+</article><ul class="pagination"><li class="page-item active">
+                    <span class="page-link">
+                        <a href="/">1</a>
+                    </span>
+                </li><li class="page-item ">
+                    <span class="page-link">
+                        <a href="/page/2/">2</a>
+                    </span>
+                </li><li class="page-item ">
+                    <span class="page-link">
+                        <a href="/page/3/">3</a>
+                    </span>
+                </li></ul></div></div>
             </main><footer class="footer">
         <div class="footer-container"><div class="footer-line" itemscope itemtype="http://schema.org/CreativeWork"><i class="far fa-copyright fa-fw" aria-hidden="true"></i><span itemprop="copyrightYear">2025</span><span class="author" itemprop="copyrightHolder">&nbsp;<a href="https://w41bu1.github.io" target="_blank">w41bu1</a></span>&nbsp;|&nbsp;<span class="license"><a rel="license external nofollow noopener noreffer" href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">CC BY-NC 4.0</a></span></div>
         </div>

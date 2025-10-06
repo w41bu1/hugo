@@ -1,0 +1,31 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>Web - Danh mục - w41bu1</title>
+        <link>http://localhost:1313/vi/categories/web/</link>
+        <description>Web - Danh mục - w41bu1</description>
+        <generator>Hugo -- gohugo.io</generator><language>vi</language><managingEditor>buivanyk4@gmail.com (w41bu1)</managingEditor>
+            <webMaster>buivanyk4@gmail.com (w41bu1)</webMaster><copyright>Tác phẩm này được cấp phép theo Giấy phép Creative Commons Ghi công - Phi thương mại 4.0 Quốc tế.</copyright><lastBuildDate>Thu, 21 Aug 2025 09:00:00 &#43;0700</lastBuildDate><atom:link href="http://localhost:1313/vi/categories/web/" rel="self" type="application/rss+xml" /><item>
+    <title>WordPress Local and Debugging</title>
+    <link>http://localhost:1313/vi/2025-08-21-wordpress-local-and-debugging/</link>
+    <pubDate>Thu, 21 Aug 2025 09:00:00 &#43;0700</pubDate>
+    <author>buivanyk4@gmail.com (w41bu1)</author>
+    <guid>http://localhost:1313/vi/2025-08-21-wordpress-local-and-debugging/</guid>
+    <description><![CDATA[<div class="featured-image">
+                <img src="/app.png" referrerpolicy="no-referrer">
+            </div>WordPress là một hệ thống quản lý nội dung (CMS) mạnh mẽ và phổ biến nhất cho phép bạn tạo, quản lý và tùy chỉnh các trang web và blog một cách dễ dàng. Nó là open-source CMS, được xây dựng trên PHP và sử dụng cơ sở dữ liệu MySQL hoặc Maria DB.
+Ra đời năm 2003, ban đầu chỉ để viết blog, sau đó phát triển thành nền tảng tạo website, cửa hàng online, diễn đàn, landing page… Hiện nay, hơn 40% website trên thế giới chạy bằng WordPress.]]></description>
+</item>
+<item>
+    <title>Github Pages with Jekyll themes and Giscus</title>
+    <link>http://localhost:1313/vi/2025-08-19-github-pages-with-jekyll-themes-and-giscus/</link>
+    <pubDate>Tue, 19 Aug 2025 01:10:00 &#43;0700</pubDate>
+    <author>buivanyk4@gmail.com (w41bu1)</author>
+    <guid>http://localhost:1313/vi/2025-08-19-github-pages-with-jekyll-themes-and-giscus/</guid>
+    <description><![CDATA[<div class="featured-image">
+                <img src="/app.png" referrerpolicy="no-referrer">
+            </div>Khi bắt đầu tạo blog cá nhân, có ba công cụ bạn cần biết: GitHub Pages, Jekyll và Giscus.
+Github Pages: Dịch vụ miễn phí từ GitHub, cho phép bạn triển khai website tĩnh trực tiếp từ repository. Chỉ cần push code lên GitHub, blog của bạn sẽ tự động xuất hiện trên Internet mà không cần server riêng.
+Jekyll: Một static site generator tích hợp sẵn với GitHub Pages.]]></description>
+</item>
+</channel>
+</rss>

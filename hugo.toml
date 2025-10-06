@@ -372,7 +372,7 @@ languageName = "English"
         weight = 6
         identifier = "github"
         pre = "<i class='fab fa-github fa-fw' aria-hidden='true'></i>"
-        url = "https://github.com/dillonzq/LoveIt"
+        url = "https://github.com/w41bu1"
         title = "GitHub"
 
     [languages.en.params.search]

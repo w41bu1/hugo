@@ -1,0 +1,20 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>Blog - Nhãn - w41bu1</title>
+        <link>http://localhost:1313/vi/tags/blog/</link>
+        <description>Blog - Nhãn - w41bu1</description>
+        <generator>Hugo -- gohugo.io</generator><language>vi</language><managingEditor>buivanyk4@gmail.com (w41bu1)</managingEditor>
+            <webMaster>buivanyk4@gmail.com (w41bu1)</webMaster><copyright>Tác phẩm này được cấp phép theo Giấy phép Creative Commons Ghi công - Phi thương mại 4.0 Quốc tế.</copyright><lastBuildDate>Tue, 19 Aug 2025 01:10:00 &#43;0700</lastBuildDate><atom:link href="http://localhost:1313/vi/tags/blog/" rel="self" type="application/rss+xml" /><item>
+    <title>Github Pages with Jekyll themes and Giscus</title>
+    <link>http://localhost:1313/vi/2025-08-19-github-pages-with-jekyll-themes-and-giscus/</link>
+    <pubDate>Tue, 19 Aug 2025 01:10:00 &#43;0700</pubDate>
+    <author>buivanyk4@gmail.com (w41bu1)</author>
+    <guid>http://localhost:1313/vi/2025-08-19-github-pages-with-jekyll-themes-and-giscus/</guid>
+    <description><![CDATA[<div class="featured-image">
+                <img src="/app.png" referrerpolicy="no-referrer">
+            </div>Khi bắt đầu tạo blog cá nhân, có ba công cụ bạn cần biết: GitHub Pages, Jekyll và Giscus.
+Github Pages: Dịch vụ miễn phí từ GitHub, cho phép bạn triển khai website tĩnh trực tiếp từ repository. Chỉ cần push code lên GitHub, blog của bạn sẽ tự động xuất hiện trên Internet mà không cần server riêng.
+Jekyll: Một static site generator tích hợp sẵn với GitHub Pages.]]></description>
+</item>
+</channel>
+</rss>
