@@ -478,3 +478,7 @@ languageName = "English"
       Email = "xxxx@xxxx.com"
       Phone = "555-555-555"
       RSS = true
+
+[caches]
+  [caches.images]
+    dir = ':cacheDir/images'
